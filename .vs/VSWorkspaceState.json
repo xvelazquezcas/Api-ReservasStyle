@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Api-ReservasStyle",
+    "\\Aplicacion-ReservasStyle",
+    "\\Dominio-ReservasStyle",
+    "\\Infraestructura-ReservasStyle",
+    "\\Infraestructura-ReservasStyle\\configurations"
+  ],
+  "SelectedNode": "\\Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
+  "PreviewInSolutionExplorer": false
+}

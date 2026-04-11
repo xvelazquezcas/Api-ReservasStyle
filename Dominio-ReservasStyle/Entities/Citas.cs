@@ -1,0 +1,15 @@
+namespace Dominio_ReservasStyle.Entities
+{
+    public class Citas
+    {
+        public int IdCita { get; set; }
+        public int IdCliente { get; set; }
+        public int IdEmpleado { get; set; }
+        public int IdServicioLocal { get; set; }
+        public DateTime Fecha { get; set; }
+        public TimeSpan HoraInicio { get; set; }
+        public TimeSpan HoraFin { get; set; }
+        public string? Estado { get; set; }
+        public DateTime FechaCreacion { get; set; }
+    }
+}

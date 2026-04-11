@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1b64eIoZHQo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
