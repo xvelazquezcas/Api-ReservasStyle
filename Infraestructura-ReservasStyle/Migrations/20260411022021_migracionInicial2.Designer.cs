@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infraestructura_ReservasStyle.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20260327085555_ConfiguracionRestante")]
-    partial class ConfiguracionRestante
+    [Migration("20260411022021_migracionInicial2")]
+    partial class migracionInicial2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -445,7 +445,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
 
-                    b.Property<string>("ContraseñaHash")
+                    b.Property<string>("ContrasenaHash")
                         .IsRequired()
                         .HasColumnType("text");
 

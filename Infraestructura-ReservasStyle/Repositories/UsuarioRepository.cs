@@ -50,6 +50,8 @@ namespace Infraestructura_ReservasStyle.Repositories
         public async Task<Usuario?> GetByEmailAsync(string email)
         {
             return await _context.Usuarios
+                .Include(u => u.UsuarioRoles)
+                    .ThenInclude(ur => ur.Rol)
                 .FirstOrDefaultAsync(u => u.Email == email);
         }
     }

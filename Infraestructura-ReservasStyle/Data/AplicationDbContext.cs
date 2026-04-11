@@ -14,6 +14,8 @@ namespace Infraestructura_ReservasStyle
         public DbSet<Servicio> Servicios { get; set; }
         public DbSet<Pago> Pagos { get; set; }
         public DbSet<HorariosDisponibles> HorariosDisponibles { get; set; }
+        public DbSet<Rol> Roles { get; set; }
+        public DbSet<UsuarioRol> UsuarioRoles { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

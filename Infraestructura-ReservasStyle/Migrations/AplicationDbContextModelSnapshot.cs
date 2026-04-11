@@ -351,6 +351,25 @@ namespace Infraestructura_ReservasStyle.Migrations
                     b.ToTable("Promociones", (string)null);
                 });
 
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.Rol", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Nombre")
+                        .IsUnique();
+
+                    b.ToTable("roles", (string)null);
+                });
+
             modelBuilder.Entity("Dominio_ReservasStyle.Entities.Servicio", b =>
                 {
                     b.Property<int>("IdServicio")
@@ -442,7 +461,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
 
-                    b.Property<string>("ContraseñaHash")
+                    b.Property<string>("ContrasenaHash")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -481,6 +500,21 @@ namespace Infraestructura_ReservasStyle.Migrations
                     b.ToTable("Usuarios", (string)null);
                 });
 
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.UsuarioRol", b =>
+                {
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("RolId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("UsuarioId", "RolId");
+
+                    b.HasIndex("RolId");
+
+                    b.ToTable("usuario_roles", (string)null);
+                });
+
             modelBuilder.Entity("Dominio_ReservasStyle.Entities.Citas", b =>
                 {
                     b.HasOne("Dominio_ReservasStyle.Entities.Usuario", null)
@@ -500,6 +534,35 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasForeignKey("IdServicioLocal")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.UsuarioRol", b =>
+                {
+                    b.HasOne("Dominio_ReservasStyle.Entities.Rol", "Rol")
+                        .WithMany("UsuarioRoles")
+                        .HasForeignKey("RolId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Dominio_ReservasStyle.Entities.Usuario", "Usuario")
+                        .WithMany("UsuarioRoles")
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Rol");
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.Rol", b =>
+                {
+                    b.Navigation("UsuarioRoles");
+                });
+
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.Usuario", b =>
+                {
+                    b.Navigation("UsuarioRoles");
                 });
 #pragma warning restore 612, 618
         }

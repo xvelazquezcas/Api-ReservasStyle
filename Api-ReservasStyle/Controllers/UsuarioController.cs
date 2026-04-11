@@ -10,10 +10,12 @@ namespace Api_ReservasStyle.Controllers
     public class UsuariosController : ControllerBase
     {
         private readonly IUsuarioService _usuarioService;
+        private readonly IAuthService _authService;
 
-        public UsuariosController(IUsuarioService usuarioService)
+        public UsuariosController(IUsuarioService usuarioService, IAuthService authService)
         {
             _usuarioService = usuarioService;
+            _authService = authService;
         }
 
         // REGISTRO
@@ -57,7 +59,7 @@ namespace Api_ReservasStyle.Controllers
         {
             try
             {
-                var usuario = await _usuarioService.LoginAsync(dto.Email, dto.Password);
+                var usuario = await _authService.LoginAsync(dto.Email, dto.Password);
 
                 return Ok(new
                 {

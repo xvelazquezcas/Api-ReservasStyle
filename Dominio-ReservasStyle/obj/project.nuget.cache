@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xYeIl5+/ZGE=",
+  "dgSpecHash": "6XRuI67rhDY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Dominio-ReservasStyle/Dominio-ReservasStyle.csproj",
+  "expectedPackageFiles": [
+    "/home/rochinx2204/.nuget/packages/microsoft.netcore.app.ref/8.0.24/microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "/home/rochinx2204/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.24/microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -12,5 +12,6 @@ namespace Dominio_ReservasStyle.Entities
         public DateTime FechaRegistro { get; set; }
         public bool Estado { get; set; }
         public int IdRol { get; set; }
+        public ICollection<UsuarioRol> UsuarioRoles { get; set; } = new List<UsuarioRol>();
     }
 }

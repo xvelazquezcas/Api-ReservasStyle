@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infraestructura_ReservasStyle.Migrations
 {
     /// <inheritdoc />
-    public partial class ConfiguracionRestante : Migration
+    public partial class migracionInicial2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -202,7 +202,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                     Apellido = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
                     Email = table.Column<string>(type: "character varying(150)", maxLength: 150, nullable: false),
                     Telefono = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: true),
-                    ContraseñaHash = table.Column<string>(type: "text", nullable: false),
+                    ContrasenaHash = table.Column<string>(type: "text", nullable: false),
                     FechaRegistro = table.Column<DateTime>(type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
                     Estado = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
                     IdRol = table.Column<int>(type: "integer", nullable: false)
