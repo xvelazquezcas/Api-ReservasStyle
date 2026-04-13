@@ -1,4 +1,5 @@
-﻿using Aplicacion_ReservasStyle.Interfaces;
+﻿using Aplicacion_ReservasStyle.DTOs;
+using Aplicacion_ReservasStyle.Interfaces;
 using Dominio_ReservasStyle.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -49,7 +50,7 @@ public class CitasController : ControllerBase
         return Ok(new
         {
             mensaje = "Cita creada exitosamente",
-            citaId = result.IdCita,
+            citaId = result.IdCita.ToString(),
             usuarioId = userId,
             email = email,
             empleado = nombreCompleto

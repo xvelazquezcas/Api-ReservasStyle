@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "gRYn3PmSke4=",
+  "dgSpecHash": "AGhgheL/gIM=",
   "success": true,
   "projectFilePath": "/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Aplicacion-ReservasStyle/Aplicacion-ReservasStyle.csproj",
   "expectedPackageFiles": [
+    "/home/rochinx2204/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/rochinx2204/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/rochinx2204/.nuget/packages/bcrypt.net-next/4.1.0/bcrypt.net-next.4.1.0.nupkg.sha512",
+    "/home/rochinx2204/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/rochinx2204/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.5/microsoft.extensions.dependencyinjection.10.0.5.nupkg.sha512",
     "/home/rochinx2204/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.5/microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512",
+    "/home/rochinx2204/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/rochinx2204/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/rochinx2204/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/rochinx2204/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.24/microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
     "/home/rochinx2204/.nuget/packages/microsoft.netcore.app.ref/8.0.24/microsoft.netcore.app.ref.8.0.24.nupkg.sha512"
   ],

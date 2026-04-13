@@ -32,7 +32,7 @@ namespace Infraestructura_ReservasStyle.Configurations
 
             builder.Property(u => u.ContrasenaHash)
                 .IsRequired();
-
+//foto
             builder.Property(u => u.FechaRegistro)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
@@ -41,7 +41,7 @@ namespace Infraestructura_ReservasStyle.Configurations
 
             builder.Property(u => u.IdRol)
                 .IsRequired();
-
+//sucursal
             // builder.HasOne<Rol>()
             //        .WithMany()
             //        .HasForeignKey(u => u.IdRol);

@@ -448,6 +448,57 @@ namespace Infraestructura_ReservasStyle.Migrations
                     b.ToTable("ServicioPromocion", (string)null);
                 });
 
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.Sucursal", b =>
+                {
+                    b.Property<int>("IdSucursal")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdSucursal"));
+
+                    b.Property<string>("Ciudad")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("CodigoPostal")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<bool>("EstadoActivo")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("character varying(20)");
+
+                    b.HasKey("IdSucursal");
+
+                    b.HasIndex("Nombre")
+                        .IsUnique();
+
+                    b.ToTable("sucursales", (string)null);
+                });
+
             modelBuilder.Entity("Dominio_ReservasStyle.Entities.Usuario", b =>
                 {
                     b.Property<int>("IdUsuario")

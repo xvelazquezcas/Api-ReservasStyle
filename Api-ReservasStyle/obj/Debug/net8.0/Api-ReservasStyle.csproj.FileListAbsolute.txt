@@ -353,3 +353,5 @@ C:/Users/ACER/Downloads/ReservasStyle/Api-ReservasStyle/obj/Debug/net8.0/staticw
 /home/rochinx2204/Documents/Programing/Api-ReservasStyle/Api-ReservasStyle/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /home/rochinx2204/Documents/Programing/Api-ReservasStyle/Api-ReservasStyle/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
 /home/rochinx2204/Documents/Programing/Api-ReservasStyle/Api-ReservasStyle/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Api-ReservasStyle/bin/Debug/net8.0/AutoMapper.dll
+/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Api-ReservasStyle/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

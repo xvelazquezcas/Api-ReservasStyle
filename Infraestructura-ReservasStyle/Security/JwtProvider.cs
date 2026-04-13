@@ -22,6 +22,7 @@ namespace Infraestructura_ReservasStyle.Security
                 new Claim(JwtRegisteredClaimNames.Sub, usuario.IdUsuario.ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, usuario.Email ?? string.Empty),
                 new Claim("nombre_completo", $"{usuario.Nombre} {usuario.Apellido}"), // Claim personalizado
+                // new Claim(JwtRegisteredClaimNames.UniqueName, usuario.IdRol.ToString())
             };
 
             // 2. Agregar Roles como Claims
@@ -34,7 +35,7 @@ namespace Infraestructura_ReservasStyle.Security
             }
 
             // 3. Crear Firma
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:SecretKey"] ?? "your-secret-key-min-256bits"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:SecretKey"] ?? "Dx1rkyuenkxluSX0spSXBEjlrLnZIMfa7xKXG0pXZRN"));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             // 4. Crear el Token
@@ -42,7 +43,7 @@ namespace Infraestructura_ReservasStyle.Security
                 issuer: _config["Jwt:Issuer"] ?? "ReservasStyle",
                 audience: _config["Jwt:Audience"] ?? "ReservasStyleAudience",
                 claims: claims,
-                expires: DateTime.UtcNow.AddHours(8),
+                expires: DateTime.UtcNow.AddMinutes(5),
                 signingCredentials: creds
             );
 
@@ -50,3 +51,5 @@ namespace Infraestructura_ReservasStyle.Security
         }
     }
 }
+///jsjsjsjsjsjsjsjs
+// JSJSJSJSJSJS
