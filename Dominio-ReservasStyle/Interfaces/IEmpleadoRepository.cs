@@ -9,5 +9,6 @@ namespace Dominio_ReservasStyle.Interfaces
         Task<Empleado> CreateAsync(Empleado empleado);
         Task UpdateAsync(Empleado empleado);
         Task DeleteAsync(int id);
+        Task<bool> ExisteEmpleadoIdAsync(int id);
     }
 }

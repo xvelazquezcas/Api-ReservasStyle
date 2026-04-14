@@ -32,16 +32,12 @@ namespace Infraestructura_ReservasStyle.Repositories
 
         public Task<IEnumerable<Sucursal>> GetAllAsync()
         {
-            return Task.FromResult(_context.Sucursales
-                .Where(s => s.EstadoActivo)
-                .OrderBy(s => s.Nombre)
-                .AsEnumerable());
+            throw new NotImplementedException();
         }
 
-        public async Task<Sucursal?> GetByIdAsync(int id)
+        public Task<Sucursal?> GetByIdAsync(int id)
         {
-            return await _context.Sucursales
-                .FirstOrDefaultAsync(s => s.IdSucursal == id);
+            throw new NotImplementedException();
         }
 
         public async Task UpdateAsync(Sucursal sucursal)
