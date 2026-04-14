@@ -17,8 +17,8 @@ namespace Api_ReservasStyle.Controllers
             _empleadoService = empleadoService;
         }
         [HttpGet]
-        // [Authorize(Roles = "Admin")]
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
+        // [AllowAnonymous]
         public async Task<IActionResult> GetAll()
         {
             try
@@ -72,8 +72,8 @@ namespace Api_ReservasStyle.Controllers
             }
         }
         [HttpPost]
-        // [Authorize(Roles = "Admin")]
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
+        // [AllowAnonymous]
         public async Task<IActionResult> Create([FromBody] CrearEmpleadoDto dto)
         {
             try
@@ -110,8 +110,8 @@ namespace Api_ReservasStyle.Controllers
             }
         }
         [HttpPut("{id}")]
-        // [Authorize(Roles = "Admin")]
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
+        // [AllowAnonymous]
         public async Task<IActionResult> Update(int id, [FromBody] ActualizarEmpleadoDto dto)
         {
             try
@@ -161,8 +161,8 @@ namespace Api_ReservasStyle.Controllers
             }
         }
         [HttpDelete("{id}")]
-        // [Authorize(Roles = "Admin")]
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
+        // [AllowAnonymous]
         public async Task<IActionResult> Delete(int id)
         {
             try
