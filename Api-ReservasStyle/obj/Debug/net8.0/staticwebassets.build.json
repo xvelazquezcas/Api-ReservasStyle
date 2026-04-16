@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"0IperOtPWbr7l2udwtMnQkGwtX3Jr4PJM3YuuVEQTqo=","Source":"Api-ReservasStyle","BasePath":"_content/Api-ReservasStyle","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "LLojqJnzj8eD9sPwmtiPiK28oUHcC9kF796AXTe6ML4=",
+  "Source": "Api-ReservasStyle",
+  "BasePath": "_content/Api-ReservasStyle",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

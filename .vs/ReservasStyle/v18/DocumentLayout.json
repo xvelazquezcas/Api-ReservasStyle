@@ -3,16 +3,156 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\configurations\\servicioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\configurations\\servicioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\servicios\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\servicios\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\servicios\\citaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\servicios\\citaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\interfaces\\icitaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\interfaces\\icitaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\dtos\\servicioupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\dtos\\servicioupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\dtos\\serviciocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\dtos\\serviciocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\dtos\\serviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\dtos\\serviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\configurations\\horariosdisponiblesconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\configurations\\horariosdisponiblesconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\repositories\\serviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\repositories\\serviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\interfaces\\iserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\interfaces\\iserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\servicios\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\servicios\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\interfaces\\ihorariosrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\interfaces\\ihorariosrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\interfaces\\icitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\interfaces\\icitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\repositories\\horariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\repositories\\horariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\repositories\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\repositories\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\repositories\\citarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\repositories\\citarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\entities\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\entities\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\entities\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\entities\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\entities\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\entities\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\dominio-reservasstyle\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\migrations\\20260411032224_migracioninicial3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\migrations\\20260411032224_migracioninicial3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\migrations\\20260411022021_migracioninicial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\migrations\\20260411022021_migracioninicial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\api-reservasstyle.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\api-reservasstyle.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,28 +167,8 @@
       "RelativeMoniker": "D:0:0:{7DC81575-F578-4CE3-B96F-A52E78D085DF}|Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj|solutionrelative:dominio-reservasstyle\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\aplicacion-reservasstyle\\dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A269E434-AB9F-48CC-ACF0-1552FFD9B73A}|Aplicacion-ReservasStyle\\Aplicacion-ReservasStyle.csproj|solutionrelative:aplicacion-reservasstyle\\dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\api-reservasstyle\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DD89BCA-1D7C-430E-9560-A7E870B159B8}|Api-ReservasStyle\\Api-ReservasStyle.csproj|solutionrelative:api-reservasstyle\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|solutionrelative:infraestructura-reservasstyle\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56FDE8AC-03C0-4C3F-AC59-03FA6314B991}|Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj|c:\\users\\acer\\downloads\\reservasstyle\\infraestructura-reservasstyle\\configurations\\comprobantesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,109 +186,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Api-ReservasStyle",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Api-ReservasStyle.csproj",
-              "RelativeDocumentMoniker": "Api-ReservasStyle\\Api-ReservasStyle.csproj",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Api-ReservasStyle.csproj",
-              "RelativeToolTip": "Api-ReservasStyle\\Api-ReservasStyle.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-11T01:10:23.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
-              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
-              "RelativeToolTip": "Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Title": "ServicioController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\ServicioController.cs",
+              "RelativeDocumentMoniker": "Api-ReservasStyle\\Controllers\\ServicioController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\ServicioController.cs",
+              "RelativeToolTip": "Api-ReservasStyle\\Controllers\\ServicioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T21:27:59.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\Servicios\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\UsuarioService.cs",
-              "RelativeToolTip": "Aplicacion-ReservasStyle\\Servicios\\UsuarioService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T21:19:18.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeToolTip": "Dominio-ReservasStyle\\Interfaces\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T21:18:40.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "Infraestructura-ReservasStyle\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T21:18:19.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Entities\\Usuario.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Usuario.cs",
-              "RelativeToolTip": "Dominio-ReservasStyle\\Entities\\Usuario.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA6wA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T20:39:36.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Api-ReservasStyle\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Api-ReservasStyle\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T19:46:54.793Z"
+              "WhenOpened": "2026-04-15T06:52:55.09Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RegistroDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\RegistroDto.cs",
-              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\DTOs\\RegistroDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\RegistroDto.cs",
-              "RelativeToolTip": "Aplicacion-ReservasStyle\\DTOs\\RegistroDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Title": "ServicioCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\ServicioCreateDto.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\DTOs\\ServicioCreateDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\ServicioCreateDto.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\DTOs\\ServicioCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T20:14:13.884Z"
+              "WhenOpened": "2026-04-15T06:15:21.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "ServicioService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\ServicioService.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\Servicios\\ServicioService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\ServicioService.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\Servicios\\ServicioService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwHQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:46:52.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitaService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\CitaService.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\Servicios\\CitaService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\CitaService.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\Servicios\\CitaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:37:53.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicioConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\ServicioConfiguration.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\configurations\\ServicioConfiguration.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\ServicioConfiguration.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\configurations\\ServicioConfiguration.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T02:46:59.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICitaService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Interfaces\\ICitaService.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\Interfaces\\ICitaService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Interfaces\\ICitaService.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\Interfaces\\ICitaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T06:48:55.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServicioDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\ServicioDto.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\DTOs\\ServicioDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\ServicioDto.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\DTOs\\ServicioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:15:34.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\UsuarioDto.cs",
               "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\DTOs\\UsuarioDto.cs",
@@ -180,31 +287,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Program.cs",
-              "RelativeDocumentMoniker": "Api-ReservasStyle\\Program.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Program.cs",
-              "RelativeToolTip": "Api-ReservasStyle\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\Servicios\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\UsuarioService.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\Servicios\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T19:55:48.444Z"
+              "WhenOpened": "2026-04-10T21:19:18.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CitasController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\CitasController.cs",
-              "RelativeDocumentMoniker": "Api-ReservasStyle\\Controllers\\CitasController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\CitasController.cs",
-              "RelativeToolTip": "Api-ReservasStyle\\Controllers\\CitasController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ServicioUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\ServicioUpdateDto.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\DTOs\\ServicioUpdateDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\ServicioUpdateDto.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\DTOs\\ServicioUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T03:16:00.661Z"
+              "WhenOpened": "2026-04-15T06:20:25.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:37:01.516Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "HorariosDisponiblesConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\HorariosDisponiblesConfigurations.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\configurations\\HorariosDisponiblesConfigurations.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\HorariosDisponiblesConfigurations.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\configurations\\HorariosDisponiblesConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:11:14.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\EmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Repositories\\EmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\EmpleadoRepository.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Repositories\\EmpleadoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:42:32.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Api-ReservasStyle\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Api-ReservasStyle\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:46:54.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServicioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\ServicioRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Repositories\\ServicioRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\ServicioRepository.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Repositories\\ServicioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:14:31.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\appsettings.json",
+              "RelativeDocumentMoniker": "Api-ReservasStyle\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\appsettings.json",
+              "RelativeToolTip": "Api-ReservasStyle\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T15:07:16.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IServicioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IServicioRepository.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Interfaces\\IServicioRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IServicioRepository.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Interfaces\\IServicioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:51:57.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:04:46.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "AplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Data\\AplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Data\\AplicationDbContext.cs",
@@ -216,7 +419,283 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Program.cs",
+              "RelativeDocumentMoniker": "Api-ReservasStyle\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Program.cs",
+              "RelativeToolTip": "Api-ReservasStyle\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:55:48.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "Api-ReservasStyle\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "Api-ReservasStyle\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T03:16:00.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IHorariosRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IHorariosRepositories.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Interfaces\\IHorariosRepositories.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IHorariosRepositories.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Interfaces\\IHorariosRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:52:39.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\AuthService.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\Servicios\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Servicios\\AuthService.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\Servicios\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:58:10.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IEmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IEmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Interfaces\\IEmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IEmpleadoRepository.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Interfaces\\IEmpleadoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:52:37.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\ICitaRepository.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Interfaces\\ICitaRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\ICitaRepository.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Interfaces\\ICitaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:52:29.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HorariosRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\HorariosRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Repositories\\HorariosRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\HorariosRepository.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Repositories\\HorariosRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:42:29.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PagoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\PagoRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Repositories\\PagoRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\PagoRepository.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Repositories\\PagoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:42:28.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Interfaces\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\Interfaces\\IJwtProvider.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\Interfaces\\IJwtProvider.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\Interfaces\\IJwtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:37:06.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\CitaRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Repositories\\CitaRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\CitaRepository.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Repositories\\CitaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:23:23.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Citas.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Citas.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Entities\\Citas.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Citas.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Entities\\Citas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:17:45.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Servicio.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Servicio.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Entities\\Servicio.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Servicio.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Entities\\Servicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T01:26:40.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Empleado.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Entities\\Empleado.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Empleado.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Entities\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T01:20:32.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Roles.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Entities\\Roles.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Roles.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Entities\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:32:53.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Rol.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Entities\\Rol.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Rol.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Entities\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:32:50.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260411022021_migracionInicial2.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Migrations\\20260411022021_migracionInicial2.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Migrations\\20260411022021_migracionInicial2.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Migrations\\20260411022021_migracionInicial2.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Migrations\\20260411022021_migracionInicial2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:28:24.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260411032224_migracionInicial3.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Migrations\\20260411032224_migracionInicial3.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Migrations\\20260411032224_migracionInicial3.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Migrations\\20260411032224_migracionInicial3.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Migrations\\20260411032224_migracionInicial3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:27:17.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Api-ReservasStyle.csproj",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Api-ReservasStyle.csproj",
+              "RelativeDocumentMoniker": "Api-ReservasStyle\\Api-ReservasStyle.csproj",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Api-ReservasStyle\\Api-ReservasStyle.csproj",
+              "RelativeToolTip": "Api-ReservasStyle\\Api-ReservasStyle.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-11T01:10:23.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UsuarioConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\configurations\\UsuarioConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T21:27:59.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T21:18:40.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Infraestructura-ReservasStyle\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T21:18:19.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Dominio-ReservasStyle\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Dominio-ReservasStyle\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA6wA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T20:39:36.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RegistroDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\RegistroDto.cs",
+              "RelativeDocumentMoniker": "Aplicacion-ReservasStyle\\DTOs\\RegistroDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Aplicacion-ReservasStyle\\DTOs\\RegistroDto.cs",
+              "RelativeToolTip": "Aplicacion-ReservasStyle\\DTOs\\RegistroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T20:14:13.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "ComprobantesConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\configurations\\ComprobantesConfiguration.cs",
               "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\configurations\\ComprobantesConfiguration.cs",
@@ -228,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 43,
               "Title": "Infraestructura-ReservasStyle.csproj",
               "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj",
               "RelativeDocumentMoniker": "Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj",
@@ -236,8 +715,7 @@
               "RelativeToolTip": "Infraestructura-ReservasStyle\\Infraestructura-ReservasStyle.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-07T02:55:59.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T02:55:59.586Z"
             }
           ]
         }

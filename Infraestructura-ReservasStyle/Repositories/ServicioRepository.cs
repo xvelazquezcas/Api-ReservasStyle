@@ -36,7 +36,7 @@ namespace Infraestructura_ReservasStyle.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DelateAsync(int id)
         {
             var servicio = await _context.Servicios.FindAsync(id);
             if (servicio != null)

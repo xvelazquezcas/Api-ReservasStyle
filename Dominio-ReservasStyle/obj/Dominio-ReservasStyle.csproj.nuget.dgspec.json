@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Dominio-ReservasStyle/Dominio-ReservasStyle.csproj": {}
+    "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj": {}
   },
   "projects": {
-    "/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Dominio-ReservasStyle/Dominio-ReservasStyle.csproj": {
+    "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Dominio-ReservasStyle/Dominio-ReservasStyle.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj",
         "projectName": "Dominio-ReservasStyle",
-        "projectPath": "/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Dominio-ReservasStyle/Dominio-ReservasStyle.csproj",
-        "packagesPath": "/home/rochinx2204/.nuget/packages/",
-        "outputPath": "/home/rochinx2204/Documents/Programing/Api-ReservasStyle/Dominio-ReservasStyle/obj/",
+        "projectPath": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\Dominio-ReservasStyle.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\Downloads\\ReservasStyle\\Dominio-ReservasStyle\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/rochinx2204/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -54,22 +59,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "E:\\dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

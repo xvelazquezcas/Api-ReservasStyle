@@ -1,3 +1,4 @@
+
 namespace Dominio_ReservasStyle.Entities
 {
     public class Servicio
@@ -5,8 +6,9 @@ namespace Dominio_ReservasStyle.Entities
         public int IdServicio { get; set; }
         public string? Nombre { get; set; }
         public string? Descripcion { get; set; }
-        public int Duracion { get; set; } // Duración en minutos
-        public DateTime FechaCreacion { get; set; } ///En duda
+        public int DuracionMinutos { get; set; }
+        public string? Imagen {get ; set; }
         public bool Estado { get; set; }
+        public DateTime FechaCreacion { get; set; }
     }
 }

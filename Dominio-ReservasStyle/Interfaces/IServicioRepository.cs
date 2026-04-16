@@ -8,6 +8,6 @@ namespace Dominio_ReservasStyle.Interfaces
         Task<IEnumerable<Servicio>> GetAllAsync();
         Task<Servicio> CreateAsync(Servicio servicio);
         Task UpdateAsync(Servicio servicio);
-        Task DeleteAsync(int id);
+        Task DelateAsync(int id);
     }
 }

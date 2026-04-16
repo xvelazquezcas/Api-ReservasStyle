@@ -30,7 +30,7 @@ namespace Api_ReservasStyle.Controllers
                     Apellido = dto.Apellido,
                     Email = dto.Email,
                     Telefono = dto.Telefono,
-                    ContrasenaHash = dto.Password, // PRUEBA (no seguro)
+                    ContrasenaHash = dto.Password, // PRUEBA
                     FechaRegistro = DateTime.UtcNow,
                     Estado = true,
                     IdRol = 1
