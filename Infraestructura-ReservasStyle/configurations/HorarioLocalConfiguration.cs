@@ -15,6 +15,7 @@ namespace Infraestructura_ReservasStyle.Configurations
             builder.Property(hl => hl.HoraCerrado).IsRequired();
             builder.Property(hl => hl.Estado).HasDefaultValue(true);
             builder.HasIndex(hl => hl.IdSucursal);
+            builder.HasIndex(hl => new { hl.IdSucursal, hl.DiaSemana }).IsUnique(); // Un horario por día por sucursal
         }
     }
 

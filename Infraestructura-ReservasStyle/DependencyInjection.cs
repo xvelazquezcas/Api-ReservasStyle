@@ -30,6 +30,14 @@ public static class DependencyInjection
         services.AddScoped<IPagoRepository, PagoRepository>();
         services.AddScoped<IHorariosRepository, HorariosRepository>();
         services.AddScoped<ISucursalRepository, SucursalRepository>();
+        services.AddScoped<IHorarioLocalRepository, HorarioLocalRepository>();
+        services.AddScoped<IComprobantesRepository, ComprobantesRepository>();
+        services.AddScoped<IHorariosDisponiblesRepository, HorariosDisponiblesRepository>();
+        services.AddScoped<INotificacionesRepository, NotificacionesRepository>();
+        services.AddScoped<IPromocionesRepository, PromocionesRepository>();
+        services.AddScoped<IServicioPromocionRepository, ServicioPromocionRepository>();
+        services.AddScoped<IServicioSucursalRepository, ServicioSucursalRepository>();
+        services.AddScoped<ILogRepository, LogRepository>();
 
         // Security
         services.AddScoped<IJwtProvider, JwtProvider>();

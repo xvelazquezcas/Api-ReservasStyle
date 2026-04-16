@@ -1,5 +1,6 @@
 using Aplicacion_ReservasStyle;
 using Infraestructura_ReservasStyle;
+using Api_ReservasStyle.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+// Middleware de Logging
+app.UseMiddleware<LoggingMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

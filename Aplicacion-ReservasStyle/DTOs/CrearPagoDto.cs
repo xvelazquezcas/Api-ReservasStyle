@@ -1,11 +1,20 @@
-﻿namespace Aplicacion_ReservasStyle.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Aplicacion_ReservasStyle.DTOs
 {
     public class CrearPagoDto
     {
+        [Required(ErrorMessage = "El IdCita es requerido")]
         public int IdCita { get; set; }
 
-        public decimal Precio { get; set; }
+        [Required(ErrorMessage = "El Monto es requerido")]
+        [Range(0.01, 999999.99, ErrorMessage = "El Monto debe estar entre 0.01 y 999999.99")]
+        public decimal Monto { get; set; }
 
+        [StringLength(50, ErrorMessage = "El MetodoPago no puede exceder 50 caracteres")]
         public string? MetodoPago { get; set; }
+
+        [StringLength(100, ErrorMessage = "La ReferenciaTransaccion no puede exceder 100 caracteres")]
+        public string? ReferenciaTransaccion { get; set; }
     }
 }

@@ -9,5 +9,7 @@ namespace Dominio_ReservasStyle.Entities
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
         public bool Estado { get; set; }
+
+        public ICollection<ServicioPromocion> Servicios { get; set; } = new List<ServicioPromocion>();
     }
 }

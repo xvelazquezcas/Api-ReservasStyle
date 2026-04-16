@@ -10,5 +10,9 @@ namespace Dominio_ReservasStyle.Entities
         public string? Imagen {get ; set; }
         public bool Estado { get; set; }
         public DateTime FechaCreacion { get; set; }
+
+        // Navegaciones
+        public ICollection<ServicioSucursal> ServcioSucursales { get; set; } = new List<ServicioSucursal>();
+        public ICollection<ServicioPromocion> Promociones { get; set; } = new List<ServicioPromocion>();
     }
 }
