@@ -5,7 +5,7 @@ namespace Dominio_ReservasStyle.Entities
         public int IdCita { get; set; }
         public int IdCliente { get; set; }
         public int IdEmpleado { get; set; }
-        public int IdServicioLocal { get; set; }
+        public int IdServicioSucursal { get; set; }
         public DateTime Fecha { get; set; }
         public TimeSpan HoraInicio { get; set; }
         public TimeSpan HoraFin { get; set; }

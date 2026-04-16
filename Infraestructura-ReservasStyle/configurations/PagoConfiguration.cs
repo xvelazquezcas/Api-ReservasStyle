@@ -20,7 +20,7 @@ namespace Infraestructura_ReservasStyle.Configurations
                 .IsRequired();
 
             // IMPORTANTE: En PostgreSQL el tipo decimal debe tener precisión
-            builder.Property(p => p.Precio)
+            builder.Property(p => p.Monto)
                 .HasPrecision(18, 2) // 18 dígitos en total, 2 decimales (ej: 9999.99)
                 .IsRequired();
 

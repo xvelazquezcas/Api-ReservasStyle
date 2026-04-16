@@ -10,13 +10,14 @@ namespace Infraestructura_ReservasStyle
         public DbSet<Citas> Citas { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Empleado> Empleados { get; set; }
-        public DbSet<ServicioLocal> ServicioLocal { get; set; }
+        public DbSet<ServicioSucursal> ServicioLocal { get; set; }
         public DbSet<Servicio> Servicios { get; set; }
         public DbSet<Pago> Pagos { get; set; }
         public DbSet<HorariosDisponibles> HorariosDisponibles { get; set; }
         public DbSet<Rol> Roles { get; set; }
         public DbSet<UsuarioRol> UsuarioRoles { get; set; }
         public DbSet<Sucursal> Sucursales { get; set; }
+        public DbSet<Servicio> Servicio { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

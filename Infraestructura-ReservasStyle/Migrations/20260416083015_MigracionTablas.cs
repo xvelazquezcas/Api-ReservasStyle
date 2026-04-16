@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infraestructura_ReservasStyle.Migrations
 {
     /// <inheritdoc />
-    public partial class migracionInicial2 : Migration
+    public partial class MigracionTablas : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,7 +34,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                     IdEmpleado = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     IdUsuario = table.Column<int>(type: "integer", nullable: false),
-                    IdLocal = table.Column<int>(type: "integer", nullable: false),
+                    IdSucursal = table.Column<int>(type: "integer", nullable: false),
                     Especialidad = table.Column<string>(type: "character varying(150)", maxLength: 150, nullable: true),
                     Estado = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
                 },
@@ -49,7 +49,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                 {
                     IdHorarioLocal = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    IdLocal = table.Column<int>(type: "integer", nullable: false),
+                    IdSucursal = table.Column<int>(type: "integer", nullable: false),
                     DiaSemana = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
                     HoraAbierto = table.Column<TimeSpan>(type: "interval", nullable: false),
                     HoraCerrado = table.Column<TimeSpan>(type: "interval", nullable: false),
@@ -58,41 +58,6 @@ namespace Infraestructura_ReservasStyle.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_HorarioLocal", x => x.IdHorarioLocal);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "HorariosDisponibles",
-                columns: table => new
-                {
-                    IdHorario = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    IdEmpleado = table.Column<int>(type: "integer", nullable: false),
-                    DiaSemana = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
-                    HoraInicio = table.Column<TimeSpan>(type: "interval", nullable: false),
-                    HoraFin = table.Column<TimeSpan>(type: "interval", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_HorariosDisponibles", x => x.IdHorario);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Locales",
-                columns: table => new
-                {
-                    IdLocal = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Nombre = table.Column<string>(type: "character varying(150)", maxLength: 150, nullable: false),
-                    Direccion = table.Column<string>(type: "character varying(250)", maxLength: 250, nullable: false),
-                    Cuidad = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: true),
-                    Estado = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: true),
-                    CodigoPostal = table.Column<string>(type: "text", nullable: true),
-                    Telefono = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: true),
-                    EstadoActivo = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Locales", x => x.IdLocal);
                 });
 
             migrationBuilder.CreateTable(
@@ -118,7 +83,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                     IdPago = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     IdCita = table.Column<int>(type: "integer", nullable: false),
-                    Precio = table.Column<decimal>(type: "numeric(18,2)", precision: 18, scale: 2, nullable: false),
+                    Monto = table.Column<decimal>(type: "numeric(18,2)", precision: 18, scale: 2, nullable: false),
                     MetodoPago = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: true),
                     FechaPago = table.Column<DateTime>(type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
                     EstadoPago = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: true, defaultValue: "Pendiente"),
@@ -136,10 +101,10 @@ namespace Infraestructura_ReservasStyle.Migrations
                     IdPromocion = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Nombre = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    Descripcion = table.Column<string>(type: "text", nullable: true),
+                    Descripcion = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: true),
                     PorcentajeDescuento = table.Column<decimal>(type: "numeric(5,2)", precision: 5, scale: 2, nullable: false),
-                    FechaInicio = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    FechaFin = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    fecha_inicio = table.Column<DateTime>(type: "timestamp", nullable: false),
+                    fecha_fin = table.Column<DateTime>(type: "timestamp", nullable: false),
                     Estado = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
                 },
                 constraints: table =>
@@ -148,31 +113,27 @@ namespace Infraestructura_ReservasStyle.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ServicioLocal",
+                name: "roles",
                 columns: table => new
                 {
-                    IdServicioLocal = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    IdServicio = table.Column<int>(type: "integer", nullable: false),
-                    IdLocal = table.Column<int>(type: "integer", nullable: false),
-                    Precio = table.Column<decimal>(type: "numeric(18,2)", precision: 18, scale: 2, nullable: false),
-                    Estado = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Nombre = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ServicioLocal", x => x.IdServicioLocal);
+                    table.PrimaryKey("PK_roles", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "ServicioPromocion",
                 columns: table => new
                 {
-                    IdServicioLocal = table.Column<int>(type: "integer", nullable: false),
+                    IdServicioSucursal = table.Column<int>(type: "integer", nullable: false),
                     IdPromocion = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ServicioPromocion", x => new { x.IdServicioLocal, x.IdPromocion });
+                    table.PrimaryKey("PK_ServicioPromocion", x => new { x.IdServicioSucursal, x.IdPromocion });
                 });
 
             migrationBuilder.CreateTable(
@@ -183,13 +144,49 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Nombre = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
                     Descripcion = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: true),
-                    Duracion = table.Column<int>(type: "integer", nullable: false),
-                    FechaCreacion = table.Column<DateTime>(type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    Estado = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                    DuracionMinutos = table.Column<int>(type: "integer", nullable: false),
+                    Imagen = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: true),
+                    Estado = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    FechaCreacion = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Servicios", x => x.IdServicio);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ServicioSucursal",
+                columns: table => new
+                {
+                    IdServicioSucursal = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    IdServicio = table.Column<int>(type: "integer", nullable: false),
+                    IdSucursal = table.Column<int>(type: "integer", nullable: false),
+                    Precio = table.Column<decimal>(type: "numeric(18,2)", precision: 18, scale: 2, nullable: false),
+                    Estado = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ServicioSucursal", x => x.IdServicioSucursal);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "sucursales",
+                columns: table => new
+                {
+                    IdSucursal = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nombre = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    Direccion = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
+                    Estado = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Ciudad = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    CodigoPostal = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
+                    Telefono = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
+                    EstadoActivo = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_sucursales", x => x.IdSucursal);
                 });
 
             migrationBuilder.CreateTable(
@@ -203,13 +200,37 @@ namespace Infraestructura_ReservasStyle.Migrations
                     Email = table.Column<string>(type: "character varying(150)", maxLength: 150, nullable: false),
                     Telefono = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: true),
                     ContrasenaHash = table.Column<string>(type: "text", nullable: false),
+                    FotoPerfil = table.Column<string>(type: "text", nullable: false),
                     FechaRegistro = table.Column<DateTime>(type: "timestamp with time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
                     Estado = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
-                    IdRol = table.Column<int>(type: "integer", nullable: false)
+                    IdRol = table.Column<int>(type: "integer", nullable: false),
+                    IdSucursal = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Usuarios", x => x.IdUsuario);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "HorariosDisponibles",
+                columns: table => new
+                {
+                    IdHorario = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    IdEmpleado = table.Column<int>(type: "integer", nullable: false),
+                    DiaSemana = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
+                    HoraInicio = table.Column<TimeSpan>(type: "interval", nullable: false),
+                    HoraFin = table.Column<TimeSpan>(type: "interval", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_HorariosDisponibles", x => x.IdHorario);
+                    table.ForeignKey(
+                        name: "FK_HorariosDisponibles_Empleados_IdEmpleado",
+                        column: x => x.IdEmpleado,
+                        principalTable: "Empleados",
+                        principalColumn: "IdEmpleado",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -220,7 +241,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     IdCliente = table.Column<int>(type: "integer", nullable: false),
                     IdEmpleado = table.Column<int>(type: "integer", nullable: false),
-                    IdServicioLocal = table.Column<int>(type: "integer", nullable: false),
+                    IdServicioSucursal = table.Column<int>(type: "integer", nullable: false),
                     fecha = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     hora_inicio = table.Column<TimeSpan>(type: "interval", nullable: false),
                     hora_fin = table.Column<TimeSpan>(type: "interval", nullable: false),
@@ -237,16 +258,40 @@ namespace Infraestructura_ReservasStyle.Migrations
                         principalColumn: "IdEmpleado",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_citas_ServicioLocal_IdServicioLocal",
-                        column: x => x.IdServicioLocal,
-                        principalTable: "ServicioLocal",
-                        principalColumn: "IdServicioLocal",
+                        name: "FK_citas_ServicioSucursal_IdServicioSucursal",
+                        column: x => x.IdServicioSucursal,
+                        principalTable: "ServicioSucursal",
+                        principalColumn: "IdServicioSucursal",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_citas_Usuarios_IdCliente",
                         column: x => x.IdCliente,
                         principalTable: "Usuarios",
                         principalColumn: "IdUsuario",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "usuario_roles",
+                columns: table => new
+                {
+                    UsuarioId = table.Column<int>(type: "integer", nullable: false),
+                    RolId = table.Column<Guid>(type: "uuid", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_usuario_roles", x => new { x.UsuarioId, x.RolId });
+                    table.ForeignKey(
+                        name: "FK_usuario_roles_Usuarios_UsuarioId",
+                        column: x => x.UsuarioId,
+                        principalTable: "Usuarios",
+                        principalColumn: "IdUsuario",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_usuario_roles_roles_RolId",
+                        column: x => x.RolId,
+                        principalTable: "roles",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -261,9 +306,9 @@ namespace Infraestructura_ReservasStyle.Migrations
                 column: "IdEmpleado");
 
             migrationBuilder.CreateIndex(
-                name: "IX_citas_IdServicioLocal",
+                name: "IX_citas_IdServicioSucursal",
                 table: "citas",
-                column: "IdServicioLocal");
+                column: "IdServicioSucursal");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Comprobantes_Folio",
@@ -277,9 +322,9 @@ namespace Infraestructura_ReservasStyle.Migrations
                 column: "IdPago");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Empleados_IdLocal",
+                name: "IX_Empleados_IdSucursal",
                 table: "Empleados",
-                column: "IdLocal");
+                column: "IdSucursal");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Empleados_IdUsuario",
@@ -287,9 +332,9 @@ namespace Infraestructura_ReservasStyle.Migrations
                 column: "IdUsuario");
 
             migrationBuilder.CreateIndex(
-                name: "IX_HorarioLocal_IdLocal",
+                name: "IX_HorarioLocal_IdSucursal",
                 table: "HorarioLocal",
-                column: "IdLocal");
+                column: "IdSucursal");
 
             migrationBuilder.CreateIndex(
                 name: "IX_HorariosDisponibles_IdEmpleado",
@@ -307,9 +352,36 @@ namespace Infraestructura_ReservasStyle.Migrations
                 column: "IdCita");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ServicioLocal_IdServicio_IdLocal",
-                table: "ServicioLocal",
-                columns: new[] { "IdServicio", "IdLocal" });
+                name: "IX_roles_Nombre",
+                table: "roles",
+                column: "Nombre",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ServicioPromocion_IdPromocion",
+                table: "ServicioPromocion",
+                column: "IdPromocion");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ServicioPromocion_IdServicioSucursal",
+                table: "ServicioPromocion",
+                column: "IdServicioSucursal");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ServicioSucursal_IdServicio_IdSucursal",
+                table: "ServicioSucursal",
+                columns: new[] { "IdServicio", "IdSucursal" });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_sucursales_Nombre",
+                table: "sucursales",
+                column: "Nombre",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_usuario_roles_RolId",
+                table: "usuario_roles",
+                column: "RolId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Usuarios_Email",
@@ -334,9 +406,6 @@ namespace Infraestructura_ReservasStyle.Migrations
                 name: "HorariosDisponibles");
 
             migrationBuilder.DropTable(
-                name: "Locales");
-
-            migrationBuilder.DropTable(
                 name: "Notificaciones");
 
             migrationBuilder.DropTable(
@@ -352,13 +421,22 @@ namespace Infraestructura_ReservasStyle.Migrations
                 name: "Servicios");
 
             migrationBuilder.DropTable(
+                name: "sucursales");
+
+            migrationBuilder.DropTable(
+                name: "usuario_roles");
+
+            migrationBuilder.DropTable(
+                name: "ServicioSucursal");
+
+            migrationBuilder.DropTable(
                 name: "Empleados");
 
             migrationBuilder.DropTable(
-                name: "ServicioLocal");
+                name: "Usuarios");
 
             migrationBuilder.DropTable(
-                name: "Usuarios");
+                name: "roles");
         }
     }
 }

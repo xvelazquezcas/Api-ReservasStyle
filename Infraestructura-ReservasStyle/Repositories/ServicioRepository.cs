@@ -36,14 +36,10 @@ namespace Infraestructura_ReservasStyle.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DelateAsync(int id)
+        public async Task DeleteAsync(Servicio servicio)
         {
-            var servicio = await _context.Servicios.FindAsync(id);
-            if (servicio != null)
-            {
-                _context.Servicios.Remove(servicio);
-                await _context.SaveChangesAsync();
-            }
+            _context.Servicios.Remove(servicio);
+            await _context.SaveChangesAsync();
         }
     }
 }

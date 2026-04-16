@@ -13,8 +13,8 @@ namespace Infraestructura_ReservasStyle.Configurations
             builder.HasKey(u => u.IdUsuario);
 
             builder.Property(u => u.Nombre)
-                .IsRequired()          
-                .HasMaxLength(100);     
+                .IsRequired()
+                .HasMaxLength(100);
 
             builder.Property(u => u.Apellido)
                 .IsRequired()
@@ -32,19 +32,18 @@ namespace Infraestructura_ReservasStyle.Configurations
 
             builder.Property(u => u.ContrasenaHash)
                 .IsRequired();
-//foto
+            builder.Property(u => u.FotoPerfil)
+                .IsRequired();
             builder.Property(u => u.FechaRegistro)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
             builder.Property(u => u.Estado)
-                .HasDefaultValue(true); 
+                .HasDefaultValue(true);
 
             builder.Property(u => u.IdRol)
                 .IsRequired();
-//sucursal
-            // builder.HasOne<Rol>()
-            //        .WithMany()
-            //        .HasForeignKey(u => u.IdRol);
+            builder.Property(u => u.IdSucursal)
+                .IsRequired();
         }
     }
 }

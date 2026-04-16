@@ -1,6 +1,7 @@
 using Aplicacion_ReservasStyle.Interfaces;
 using Aplicacion_ReservasStyle.Mappings;
 using Aplicacion_ReservasStyle.Servicios;
+//using Aplicacion_ReservasStyle.Servicios.Aplicacion_ReservasStyle.Servicios;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Aplicacion_ReservasStyle;
@@ -18,6 +19,7 @@ public static class DependencyInjection
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<ISucursalService, SucursalService>();
         services.AddScoped<IEmpleadoService, EmpleadoService>();
+        services.AddScoped<IServicioService, ServicioService>();
 
         return services;
     }

@@ -5,13 +5,15 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 namespace Infraestructura_ReservasStyle.Configurations
 {
     public class ServicioPromocionConfiguration : IEntityTypeConfiguration<ServicioPromocion>
-{
-    public void Configure(EntityTypeBuilder<ServicioPromocion> builder)
     {
-        builder.ToTable("ServicioPromocion");
-        // Llave primaria compuesta
-        builder.HasKey(sp => new { sp.IdServicioLocal, sp.IdPromocion });
+        public void Configure(EntityTypeBuilder<ServicioPromocion> builder)
+        {
+            builder.ToTable("ServicioPromocion");
+            // Llave primaria compuesta
+            builder.HasKey(sp => new { sp.IdServicioSucursal, sp.IdPromocion });
+            builder.HasIndex(sp => sp.IdServicioSucursal);
+            builder.HasIndex(sp => sp.IdPromocion);
+        }
     }
-}
 
 }

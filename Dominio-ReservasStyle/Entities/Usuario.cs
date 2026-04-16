@@ -9,9 +9,11 @@ namespace Dominio_ReservasStyle.Entities
         public string? Email { get; set; }
         public string? Telefono { get; set; }
         public string? ContrasenaHash { get; set; }
+        public string? FotoPerfil { get; set; }
         public DateTime FechaRegistro { get; set; }
         public bool Estado { get; set; }
         public int IdRol { get; set; }
+        public int IdSucursal { get; set; }
         public ICollection<UsuarioRol> UsuarioRoles { get; set; } = new List<UsuarioRol>();
     }
 }

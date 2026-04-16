@@ -12,7 +12,7 @@ namespace Infraestructura_ReservasStyle.configurations
             builder.HasKey(c => c.IdCita);
             builder.HasOne<Usuario>().WithMany().HasForeignKey(c => c.IdCliente);
             builder.HasOne<Empleado>().WithMany().HasForeignKey(c => c.IdEmpleado);
-            builder.HasOne<ServicioLocal>().WithMany().HasForeignKey(c => c.IdServicioLocal);
+            builder.HasOne<ServicioSucursal>().WithMany().HasForeignKey(c => c.IdServicioSucursal);
             builder.Property(c => c.Fecha).IsRequired().HasColumnType("timestamp with time zone")
                 .HasColumnName("fecha");
             builder.Property(c => c.HoraInicio).IsRequired().HasColumnType("interval").HasColumnName("hora_inicio");

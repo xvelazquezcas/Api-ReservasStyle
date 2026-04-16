@@ -58,7 +58,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                     b.Property<int>("IdEmpleado")
                         .HasColumnType("integer");
 
-                    b.Property<int>("IdServicioLocal")
+                    b.Property<int>("IdServicioSucursal")
                         .HasColumnType("integer");
 
                     b.HasKey("IdCita");
@@ -67,7 +67,7 @@ namespace Infraestructura_ReservasStyle.Migrations
 
                     b.HasIndex("IdEmpleado");
 
-                    b.HasIndex("IdServicioLocal");
+                    b.HasIndex("IdServicioSucursal");
 
                     b.ToTable("citas", (string)null);
                 });
@@ -120,7 +120,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasColumnType("boolean")
                         .HasDefaultValue(true);
 
-                    b.Property<int>("IdLocal")
+                    b.Property<int>("IdSucursal")
                         .HasColumnType("integer");
 
                     b.Property<int>("IdUsuario")
@@ -128,7 +128,7 @@ namespace Infraestructura_ReservasStyle.Migrations
 
                     b.HasKey("IdEmpleado");
 
-                    b.HasIndex("IdLocal");
+                    b.HasIndex("IdSucursal");
 
                     b.HasIndex("IdUsuario");
 
@@ -159,12 +159,12 @@ namespace Infraestructura_ReservasStyle.Migrations
                     b.Property<TimeSpan>("HoraCerrado")
                         .HasColumnType("interval");
 
-                    b.Property<int>("IdLocal")
+                    b.Property<int>("IdSucursal")
                         .HasColumnType("integer");
 
                     b.HasKey("IdHorarioLocal");
 
-                    b.HasIndex("IdLocal");
+                    b.HasIndex("IdSucursal");
 
                     b.ToTable("HorarioLocal", (string)null);
                 });
@@ -196,49 +196,6 @@ namespace Infraestructura_ReservasStyle.Migrations
                     b.HasIndex("IdEmpleado");
 
                     b.ToTable("HorariosDisponibles", (string)null);
-                });
-
-            modelBuilder.Entity("Dominio_ReservasStyle.Entities.Local", b =>
-                {
-                    b.Property<int>("IdLocal")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdLocal"));
-
-                    b.Property<string>("CodigoPostal")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Cuidad")
-                        .HasMaxLength(100)
-                        .HasColumnType("character varying(100)");
-
-                    b.Property<string>("Direccion")
-                        .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("character varying(250)");
-
-                    b.Property<string>("Estado")
-                        .HasMaxLength(100)
-                        .HasColumnType("character varying(100)");
-
-                    b.Property<bool>("EstadoActivo")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("boolean")
-                        .HasDefaultValue(true);
-
-                    b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("character varying(150)");
-
-                    b.Property<string>("Telefono")
-                        .HasMaxLength(20)
-                        .HasColumnType("character varying(20)");
-
-                    b.HasKey("IdLocal");
-
-                    b.ToTable("Locales", (string)null);
                 });
 
             modelBuilder.Entity("Dominio_ReservasStyle.Entities.Notificaciones", b =>
@@ -300,7 +257,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
 
-                    b.Property<decimal>("Precio")
+                    b.Property<decimal>("Monto")
                         .HasPrecision(18, 2)
                         .HasColumnType("numeric(18,2)");
 
@@ -324,7 +281,8 @@ namespace Infraestructura_ReservasStyle.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdPromocion"));
 
                     b.Property<string>("Descripcion")
-                        .HasColumnType("text");
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
 
                     b.Property<bool>("Estado")
                         .ValueGeneratedOnAdd()
@@ -332,10 +290,12 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasDefaultValue(true);
 
                     b.Property<DateTime>("FechaFin")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp")
+                        .HasColumnName("fecha_fin");
 
                     b.Property<DateTime>("FechaInicio")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp")
+                        .HasColumnName("fecha_inicio");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
@@ -382,7 +342,7 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("character varying(500)");
 
-                    b.Property<int>("Duracion")
+                    b.Property<int>("DuracionMinutos")
                         .HasColumnType("integer");
 
                     b.Property<bool>("Estado")
@@ -391,9 +351,11 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasDefaultValue(true);
 
                     b.Property<DateTime>("FechaCreacion")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("timestamp with time zone")
-                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Imagen")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
@@ -405,47 +367,51 @@ namespace Infraestructura_ReservasStyle.Migrations
                     b.ToTable("Servicios", (string)null);
                 });
 
-            modelBuilder.Entity("Dominio_ReservasStyle.Entities.ServicioLocal", b =>
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.ServicioPromocion", b =>
                 {
-                    b.Property<int>("IdServicioLocal")
+                    b.Property<int>("IdServicioSucursal")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("IdPromocion")
+                        .HasColumnType("integer");
+
+                    b.HasKey("IdServicioSucursal", "IdPromocion");
+
+                    b.HasIndex("IdPromocion");
+
+                    b.HasIndex("IdServicioSucursal");
+
+                    b.ToTable("ServicioPromocion", (string)null);
+                });
+
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.ServicioSucursal", b =>
+                {
+                    b.Property<int>("IdServicioSucursal")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdServicioLocal"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdServicioSucursal"));
 
                     b.Property<bool>("Estado")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("boolean")
                         .HasDefaultValue(true);
 
-                    b.Property<int>("IdLocal")
+                    b.Property<int>("IdServicio")
                         .HasColumnType("integer");
 
-                    b.Property<int>("IdServicio")
+                    b.Property<int>("IdSucursal")
                         .HasColumnType("integer");
 
                     b.Property<decimal>("Precio")
                         .HasPrecision(18, 2)
                         .HasColumnType("numeric(18,2)");
 
-                    b.HasKey("IdServicioLocal");
+                    b.HasKey("IdServicioSucursal");
 
-                    b.HasIndex("IdServicio", "IdLocal");
+                    b.HasIndex("IdServicio", "IdSucursal");
 
-                    b.ToTable("ServicioLocal", (string)null);
-                });
-
-            modelBuilder.Entity("Dominio_ReservasStyle.Entities.ServicioPromocion", b =>
-                {
-                    b.Property<int>("IdServicioLocal")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("IdPromocion")
-                        .HasColumnType("integer");
-
-                    b.HasKey("IdServicioLocal", "IdPromocion");
-
-                    b.ToTable("ServicioPromocion", (string)null);
+                    b.ToTable("ServicioSucursal", (string)null);
                 });
 
             modelBuilder.Entity("Dominio_ReservasStyle.Entities.Sucursal", b =>
@@ -531,7 +497,14 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
+                    b.Property<string>("FotoPerfil")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<int>("IdRol")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("IdSucursal")
                         .HasColumnType("integer");
 
                     b.Property<string>("Nombre")
@@ -580,9 +553,18 @@ namespace Infraestructura_ReservasStyle.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Dominio_ReservasStyle.Entities.ServicioLocal", null)
+                    b.HasOne("Dominio_ReservasStyle.Entities.ServicioSucursal", null)
                         .WithMany()
-                        .HasForeignKey("IdServicioLocal")
+                        .HasForeignKey("IdServicioSucursal")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Dominio_ReservasStyle.Entities.HorariosDisponibles", b =>
+                {
+                    b.HasOne("Dominio_ReservasStyle.Entities.Empleado", null)
+                        .WithMany()
+                        .HasForeignKey("IdEmpleado")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

@@ -1,5 +1,6 @@
 ﻿using Aplicacion_ReservasStyle.DTOs;
-using Aplicacion_ReservasStyle.Servicios.Aplicacion_ReservasStyle.Servicios;
+using Aplicacion_ReservasStyle.Interfaces;
+//using Aplicacion_ReservasStyle.Servicios.Aplicacion_ReservasStyle.Servicios;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_ReservasStyle.Controllers
@@ -8,79 +9,62 @@ namespace API_ReservasStyle.Controllers
     [Route("api/[controller]")]
     public class ServicioController : ControllerBase
     {
-        private readonly ServicioService _service;
+        private readonly IServicioService _servicioService;
 
-        public ServicioController(ServicioService service)
+        public ServicioController(IServicioService servicioService)
         {
-            _service = service;
+            _servicioService = servicioService;
         }
 
-        //GET: api/servicio
+        // GET ALL
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> Get()
         {
-            var servicios = await _service.ObtenerTodos();
-            return Ok(servicios);
+            var lista = await _servicioService.ObtenerTodos();
+            return Ok(lista);
         }
 
-        //GET: api/servicio/
+        // GET BY ID
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var servicio = await _service.ObtenerPorId(id);
+            var servicio = await _servicioService.ObtenerPorId(id);
 
             if (servicio == null)
-                return NotFound("Servicio no encontrado");
+                return NotFound();
 
             return Ok(servicio);
         }
 
-        // POST: api/servicio
+        //CREATE
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] ServicioCreateDto dto)
+        public async Task<IActionResult> Crear(ServicioCreateDto dto)
         {
-            try
-            {
-                await _service.Crear(dto);
-                return Ok("Servicio creado correctamente");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            var servicio = await _servicioService.Crear(dto);
+
+            return CreatedAtAction(nameof(GetById),
+                new { id = servicio.IdServicio },
+                servicio);
         }
 
-        //PUT api/servicio/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] ServicioUpdateDto dto)
+        // UPDATE
+        [HttpPut]
+        public async Task<IActionResult> Actualizar(ServicioUpdateDto dto)
         {
-            if (id != dto.IdServicio)
-                return BadRequest("El ID no coincide");
-
-            try
-            {
-                await _service.Actualizar(dto);
-                return Ok("Servicio actualizado");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            await _servicioService.Actualizar(dto);
+            return NoContent();
         }
 
-        //DELETE: api/servicio/5 (soft delete)
+        //DELETE
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Eliminar(int id)
         {
-            try
-            {
-                await _service.Eliminar(id);
-                return Ok("Servicio eliminado");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            var eliminado = await _servicioService.Eliminar(id);
+
+            if (!eliminado)
+                return NotFound();
+
+            return NoContent();
         }
     }
 }

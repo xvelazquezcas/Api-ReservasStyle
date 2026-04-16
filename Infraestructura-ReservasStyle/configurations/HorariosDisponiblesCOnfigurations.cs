@@ -23,7 +23,7 @@ namespace Infraestructura_ReservasStyle.Configurations
             // Es recomendable guardarlo como string para que en la BD sea legible (Lunes, Martes...)
             // Si prefieres números (0, 1, 2...), quita el .HasConversion<string>()
             builder.Property(h => h.DiaSemana)
-                .HasConversion<string>() 
+                .HasConversion<string>()
                 .HasMaxLength(20)
                 .IsRequired();
 
@@ -38,10 +38,10 @@ namespace Infraestructura_ReservasStyle.Configurations
             builder.HasIndex(h => h.IdEmpleado);
 
             // 5. Relación (Opcional, si tienes la entidad Empleado configurada)
-            // builder.HasOne<Empleado>()
-            //        .WithMany()
-            //        .HasForeignKey(h => h.IdEmpleado)
-            //        .OnDelete(DeleteBehavior.Cascade); // Si se borra el empleado, se borran sus horarios
+            builder.HasOne<Empleado>()
+                   .WithMany()
+                   .HasForeignKey(h => h.IdEmpleado)
+                   .OnDelete(DeleteBehavior.Cascade); // Si se borra el empleado, se borran sus horarios
         }
     }
 }

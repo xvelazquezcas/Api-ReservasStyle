@@ -15,12 +15,12 @@ namespace Infraestructura_ReservasStyle.configurations
             builder.HasKey(e => e.IdEmpleado);
 
             // 3. Configuración de Propiedades
-            
+
             // IdUsuario e IdLocal suelen ser llaves foráneas (Foreign Keys)
             builder.Property(e => e.IdUsuario)
                 .IsRequired();
 
-            builder.Property(e => e.IdLocal)
+            builder.Property(e => e.IdSucursal)
                 .IsRequired();
 
             builder.Property(e => e.Especialidad)
@@ -34,7 +34,7 @@ namespace Infraestructura_ReservasStyle.configurations
             // 4. Índices (Opcional pero recomendado)
             // Es buena idea indexar las llaves foráneas para mejorar la velocidad de búsqueda
             builder.HasIndex(e => e.IdUsuario);
-            builder.HasIndex(e => e.IdLocal);
+            builder.HasIndex(e => e.IdSucursal);
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dominio-ReservasStyle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2882236cd3ab72e0a6daaf9c701e75d96624cbb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06ce3604b590b9022920050fc43c3ef0e9cbf0c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dominio-ReservasStyle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dominio-ReservasStyle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
